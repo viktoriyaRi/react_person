@@ -1,4 +1,5 @@
 // src/App.jsx
+// src/App.jsx
 import React from 'react';
 import './App.scss';
 import { Person } from './components/Person/Person';
@@ -14,15 +15,14 @@ export const misha = {
 export const olya = {
   name: 'Olya',
   sex: 'f',
-  age: 25,
   isMarried: true,
   partnerName: 'Maksym',
 };
 
 export const alex = {
   name: 'Alex',
-  sex: 'm',
   age: 25,
+  sex: 'm',
   isMarried: false,
 };
 
@@ -33,3 +33,4 @@ export const App = () => (
     <Person person={alex} />
   </div>
 );
+
